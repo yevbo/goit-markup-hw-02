@@ -1,0 +1,464 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+
+/* index */
+
+/*header*/
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 1240px 25px 215px;
+    height: 80px;
+}
+
+.logo-top{
+    color: #2196F3;
+}
+
+.logo-top-span{
+    color: #000000;
+    padding-right: 45px;
+}
+
+
+.menu a{
+    padding-right: 50px
+}
+
+.menu, .menu-studio, .menu-portfolio, .menu-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    display: flex;
+    flex-direction: row;
+    padding: 35px 50px 35px 50px;
+    height: 80px;
+}
+
+.menu-studio-span:hover{
+    color: #2196F3;
+}
+.menu-studio-span{
+    color: #212121;
+}
+
+.menu-portfolio-span:hover{
+    color: #2196F3;
+}
+.menu-portfolio-span{
+    color: #212121;
+}
+
+.menu-contact-span:hover{
+    color: #2196F3;
+}
+.menu-contact-span{
+    color: #212121;
+}
+
+
+.contact{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    display: flex;
+    flex-direction: row;
+    padding: 35px 50px 35px 230px;
+}
+
+
+.contact-mail{
+    
+}
+
+.contact-tel-span{
+    padding-left: 50px;
+    white-space: nowrap;
+    
+}
+
+.contact-mail-span:hover{
+    color: #2196F3;
+}
+.contact-mail-span{
+    color: #212121;
+}
+
+.contact-tel-span:hover{
+    color: #2196F3;
+}
+.contact-tel-span{
+    color: #212121;
+}
+
+/*main*/
+.middle{
+    background-color: #2F303A;
+    width: 1600px;
+}
+
+.middle-text{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 200px 455px 0px 455px;
+}
+
+.middle-button{
+    margin: 30px 700px 200px 700px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.middle-button:hover{
+    background-color: #188CE8;
+}
+
+.doing{
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 95px;
+    padding-bottom: 47px;
+}
+
+.doing-topic{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    width: 270px;
+    height: 15px;
+}
+
+
+.doing-text{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #757575;
+    width: 270px;
+    height: 75px;
+}
+
+.wearedoing{
+    width: 1170px;
+    padding: 95px 215px 50px 215px;
+}
+
+.wearedoing-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.wearedoing-pic{
+    flex-direction: row;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.team{
+    padding-top: 45px;
+    background-color: #F5F4FA;
+    width: 1600px;
+}
+
+.teamour{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+    padding: 95px 670px 25px 670px;
+}
+
+.worker{
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 25px 215px 95px 215px;
+}
+
+.workerr{
+    width: 270px;
+    height: 368px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.worker-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 10px;
+}
+
+.worker-job{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*footer*/
+
+.logo-button-design{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    padding: 60px 0px 10px 215px;
+}
+
+.logo-button-design-span{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.button{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    background: #2F303A;
+}
+
+.address{
+    padding: 10px 0px 0px 215px;
+}
+
+.map{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    list-style: none
+
+}
+
+.mail, .fon{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    list-style: none
+}
+
+.fon:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio */
+
+
+.box{
+    padding-left: 202px;
+    padding-bottom: 95px;
+    padding-top: 95px;
+}
+
+
+.buttonportfolio{
+    flex-direction: row;
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding-bottom: 25px;
+    padding-left: 495px;
+    padding-right: 495px;
+}
+
+.buttonportfolio-1{
+    background-color: #F5F4FA;
+    color: #212121;
+    width: 73px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttonportfolio-2{
+    background-color: #F5F4FA;
+    color: #212121;
+    width: 128px;
+    height: 38px;   
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttonportfolio-3{
+    background-color: #F5F4FA;
+    color: #212121;
+    width: 145px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttonportfolio-4{
+    background-color: #F5F4FA;
+    color: #212121;
+    width: 103px;
+    height: 38px;   
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttonportfolio-5{
+    background-color: #F5F4FA;
+    color: #212121;
+    width: 130px;
+    height: 38px;   
+    left: 576px;
+    top: 174px;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    font-size: 16px;
+}
+
+.buttonportfolio-1:hover{
+    background-color: #2196F3;
+}
+
+.buttonportfolio-2:hover{
+    background-color: #2196F3;
+}
+
+.buttonportfolio-3:hover{
+    background-color: #2196F3;
+}
+
+.buttonportfolio-4:hover{
+    background-color: #2196F3;
+}
+
+.buttonportfolio-5:hover{
+    background-color: #2196F3;
+}
+
+.portfoliopic{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.portfoliopicimg{
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 2px solid #F6F6F6;
+}
+
+.portfoliotext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.portfoliotexttwo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
