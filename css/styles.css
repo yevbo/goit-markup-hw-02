@@ -1,248 +1,224 @@
-.body{
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: Raleway;
 }
 
+.body {
+  font-family: var(--main-font);
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1, 19;
+  color: #212121;
+}
 
 /* index */
 
 /*header*/
-.logo{
-    font-family: Raleway;
-    font-weight: 700px;
-    font-size: 26px;
-    line-height: 0,84;
-    letter-spacing: 0.03em;
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700px;
+  font-size: 26px;
+  letter-spacing: 0.03em;
 }
 
-.logo-top{
-    color: #2196F3;
+.logo-top {
+  color: #2196f3;
 }
 
-.logo-top-span{
-    color: #000000;
+.logo-top-span {
+  color: #000000;
 }
 
-.menu, .menu-studio, .menu-portfolio, .menu-contact{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 0,88;
-    letter-spacing: 0.02em;
-    color: #212121;
+.menu,
+.menu-studio,
+.menu-portfolio,
+.menu-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
-.menu-studio-span:hover{
-    color: #2196F3;
+.menu-studio-span:hover {
+  color: #2196f3;
 }
-.menu-studio-span{
-    color: #212121;
-}
-
-.menu-portfolio-span:hover{
-    color: #2196F3;
-}
-.menu-portfolio-span{
-    color: #212121;
+.menu-studio-span {
+  color: #212121;
 }
 
-.menu-contact-span:hover{
-    color: #2196F3;
+.menu-portfolio-span:hover {
+  color: #2196f3;
 }
-.menu-contact-span{
-    color: #212121;
-}
-
-.contact{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 0,88;
-    letter-spacing: 0.02em;
-    color: #212121;
+.menu-portfolio-span {
+  color: #212121;
 }
 
-.contact-tel-span{
-    white-space: nowrap;   
+.menu-contact-span:hover {
+  color: #2196f3;
+}
+.menu-contact-span {
+  color: #212121;
 }
 
-.contact-mail-span:hover{
-    color: #2196F3;
-}
-.contact-mail-span{
-    color: #212121;
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
 }
 
-.contact-tel-span:hover{
-    color: #2196F3;
+.contact-tel-span {
+  white-space: nowrap;
 }
-.contact-tel-span{
-    color: #212121;
+
+.contact-mail-span:hover {
+  color: #2196f3;
+}
+.contact-mail-span {
+  color: #212121;
+}
+
+.contact-tel-span:hover {
+  color: #2196f3;
+}
+.contact-tel-span {
+  color: #212121;
 }
 
 /*main*/
 
-.middle-text{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 0,73;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.middle-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.middle-button{
-    background-color: #2196F3;
-    color: #FFFFFF;
-    border-radius: 4px;
-    border:none;
-    outline: none;
-    font-size: 16px;
+.middle-button {
+  font-family: var(--main-font);
+  background-color: #2196f3;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.middle-button:hover{
-    background-color: #188CE8;
+.middle-button:hover {
+  background-color: #188ce8;
 }
 
-
-.doing-topic{
-    font-size: 14px;
-    line-height: 0,88;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+.doing-topic {
+  font-size: 14px;
+  line-height: 1, 14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 
-
-.doing-text{
-    font-size: 14px;
-    line-height: 0,53;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #757575;
+.doing-text {
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #757575;
 }
 
-.wearedoing-text{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 0,86;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.wearedoing-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.teamour{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 0,86;
-    text-align: center;
-    color: #212121;
+.teamour {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
 }
 
-.worker-text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 0,84;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+.worker-text {
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.worker-job{
-    font-size: 16px;
-    line-height: 0,84;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #757575;
+.worker-job {
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*footer*/
 
-.logo-button-design{
-    font-family: Raleway;
-    font-weight: 700px;
-    font-size: 26px;
-    line-height: 0,84;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+.logo-button-design {
+  font-family: var(--secondary-font);
+  font-weight: 700px;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
-.logo-button-design-span{
-    font-family: Raleway;
-    font-weight: 700px;
-    font-size: 26px;
-    line-height: 0,84;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.logo-button-design-span {
+  font-family: var(--secondary-font);
+  font-weight: 700px;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.map{
-    font-style: normal;
-    font-size: 14px;
-    line-height: 0,58;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
+.map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.mail, .fon{
-    font-style: normal;
-    font-size: 14px;
-    line-height: 0,58;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+.mail,
+.fon {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.fon:hover{
-    color: rgba(255, 255, 255, 0.6);
+.fon:hover {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* portfolio */
 
-.buttonportfolio-1{
-    background-color: #F5F4FA;
-    color: #212121;
-    border-radius: 4px;
-    border:none;
-    outline: none;
-    font-size: 16px;
+.portfoliobutton {
+  font-family: var(--main-font);
+  background-color: #f5f4fa;
+  color: #212121;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
-.buttonportfolio-1, .buttonportfolio-2, .buttonportfolio-3, .buttonportfolio-4,  .buttonportfolio-5{
-    background-color: #F5F4FA;
-    color: #212121;
-    border-radius: 4px;
-    border:none;
-    outline: none;
-    font-size: 16px;
+.portfoliobutton:hover {
+  background-color: #2196f3;
 }
 
-.buttonportfolio-1:hover{
-    background-color: #2196F3;
-}
-.buttonportfolio-2:hover{
-    background-color: #2196F3;
-}
-.buttonportfolio-3:hover{
-    background-color: #2196F3;
-}
-.buttonportfolio-4:hover{
-    background-color: #2196F3;
-}
-.buttonportfolio-5:hover{
-    background-color: #2196F3;
+.portfolio-titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.portfolio-titel{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 0,5;
-    letter-spacing: 0.06em;
-    color: #212121;
-}
-
-.portfolio-text{
-    font-size: 16px;
-    line-height: 0,53;
-    letter-spacing: 0.03em;
-    color: #757575;
+.portfolio-text {
+  line-height: 1, 88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
